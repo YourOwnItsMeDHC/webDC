@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Anurati";
+  text-align: center;
 }
 
 html,
@@ -25,49 +28,33 @@ body {
   background-color: rgba(0, 0, 0, 0.471);
 }
 
-#overlay h1 {
-  /* Centering anything with below 4 lines of css code  */
+#center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  font-family: "Anurati";
   color: #fff;
-  font-size: 30px;
+}
+
+#center h1 {
+  font-size: 50px;
   font-weight: 100;
-  letter-spacing: 30px;
 }
 
-#line {
-  position: absolute;
-  top: 53%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  width: 30%;
-  height: 1px;
-  background-color: #fff;
+#center p {
+  font-size: 12px;
 }
 
-button {
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+#center button {
   width: 260px;
   height: 45px;
   border: 1px solid #fff;
   background-color: transparent;
-
-  font-family: "Anurati";
-  font-size: 10px;
-  font-weight: 100;
-  letter-spacing: 5px;
+  color: #fff;
+  margin-top: 20px;
 }
 
-button:hover {
-    background-color: #fff;
-    color: #000;
+#center button:hover {
+  background-color: #fff;
+  color: #000;
 }
